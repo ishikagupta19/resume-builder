@@ -1,0 +1,36 @@
+.container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0;
+    gap:30px;
+    padding: 30px;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 2.1rem
+}
+
+.toolbar{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.colors{
+    display: flex;
+    gap:20px;
+    padding: 0 30px;
+}
+
+.colors .color{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background-color: aqua;
+}
