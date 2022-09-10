@@ -10,11 +10,13 @@ function Body() {
     <div className={styles.toolbar}>
         <div className={styles.colors}>
         {
-            colors.map(item =>(
+            colors.map((item) =>(
             <span 
             key={item}
-            styles={{background: item}}
-            className={styles.color} />
+            styles={{backgroundColor: item}}
+            className={styles.color} 
+                
+            />
             )
         )}
             
@@ -22,7 +24,7 @@ function Body() {
         <button>Download</button>
     </div>
     </div>
-  )
+  );
 }
 
 export default Body;
