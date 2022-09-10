@@ -17,12 +17,7 @@ function Body() {
             className={styles.color} />
             )
         )}
-            <span className={styles.color} />
-            <span className={styles.color} />
-            <span className={styles.color} />
-            <span className={styles.color} />
-            <span className={styles.color} />
-            <span className={styles.color} />
+            
         </div>
         <button>Download</button>
     </div>
