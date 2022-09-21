@@ -1,4 +1,4 @@
-
+import { ArrowDown } from 'react-feather';
 import styles from './Body.module.css';
 import React from 'react'
 
@@ -13,7 +13,7 @@ function Body() {
             colors.map((item) =>(
             <span 
             key={item}
-            styles={{backgroundColor: item}}
+            style={{backgroundColor: item}}
             className={styles.color} 
                 
             />
@@ -21,7 +21,7 @@ function Body() {
         )}
             
         </div>
-        <button>Download</button>
+        <button>Download <ArrowDown/></button>
     </div>
     </div>
   );
